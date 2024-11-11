@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { UserComponent } from './components/user/user.component';
+import { DUMMY_USERS } from './dummy-users';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +11,6 @@ import { UserComponent } from './components/user/user.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {}
+export class AppComponent {
+  users =DUMMY_USERS
+}
