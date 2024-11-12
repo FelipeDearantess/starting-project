@@ -22,7 +22,7 @@ avatar: "user-5.jpg"
 { id: 'u6',
 name:"luana Thompson",
 avatar: "user-6.jpg"
-},
+}
 ]
 
 
